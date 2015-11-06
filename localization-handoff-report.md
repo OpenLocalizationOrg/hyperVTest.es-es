@@ -61,8 +61,8 @@
  [virtualization\hyperv_on_windows\user_guide\media\HyperVManager-ConnectToLocalHost.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/hyperv_on_windows/user_guide/media/HyperVManager-ConnectToLocalHost.png) | HandedOff | [Details](#480f125229e908bd46da36baea6c1628b3b10fb3189)
  [virtualization\hyperv_on_windows\user_guide\media\HyperVManager-ConnectToRemoteHost.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/hyperv_on_windows/user_guide/media/HyperVManager-ConnectToRemoteHost.png) | HandedOff | [Details](#09140851fb0b7b0d268a1beda2d6423fe3c24e1a190)
  [virtualization\hyperv_on_windows\user_guide\media\HyperVManager-ConnectToRemoteHostAltCreds.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/hyperv_on_windows/user_guide/media/HyperVManager-ConnectToRemoteHostAltCreds.png) | HandedOff | [Details](#b1547cd8ba6a8ff669e679d64b79773d3878beea191)
- [virtualization\windowscontainers\about\media\containerEcosystem.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/windowscontainers/about/media/containerEcosystem.png) | HandedOff | [Details](#93ee375f9efb3462c5d1e4ba45248fe9dde58566204)
- [virtualization\windowscontainers\about\media\containerfund.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/windowscontainers/about/media/containerfund.png) | HandedOff | [Details](#b62d8af1f08bc8085945c8aa154d46d2215879cb205)
+ [virtualization\windowscontainers\about\media\containerEcosystem.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/windowscontainers/about/media/containerEcosystem.png) | HandedOff | [Details](#93ee375f9efb3462c5d1e4ba45248fe9dde58566203)
+ [virtualization\windowscontainers\about\media\containerfund.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/windowscontainers/about/media/containerfund.png) | HandedOff | [Details](#b62d8af1f08bc8085945c8aa154d46d2215879cb204)
  [virtualization\windowscontainers\media\explore.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/windowscontainers/media/explore.png) | HandedOff | [Details](#367d56d6ba500771f4a03e2296eca6bb079d891e217)
  [virtualization\windowscontainers\media\question.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/windowscontainers/media/question.png) | HandedOff | [Details](#7de8389ab2b14e0926c142bf61be560037fc2658219)
  [virtualization\windowscontainers\quick_start\media\cmd.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/windowscontainers/quick_start/media/cmd.png) | HandedOff | [Details](#381c1908855b7bfb04cda840a0792a563345b1a8229)
@@ -684,7 +684,7 @@
 * Dependency From: virtualization\hyperv_on_windows\user_guide\remote_host_management.md
 * [Back to Top](#report-top)
 
-##### <a name='93ee375f9efb3462c5d1e4ba45248fe9dde58566204'></a> Source: [virtualization\windowscontainers\about\media\containerEcosystem.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/windowscontainers/about/media/containerEcosystem.png)
+##### <a name='93ee375f9efb3462c5d1e4ba45248fe9dde58566203'></a> Source: [virtualization\windowscontainers\about\media\containerEcosystem.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/windowscontainers/about/media/containerEcosystem.png)
 * Status: HandedOff
 * Target File: 
 * Handoff File: [93ee375f9efb3462c5d1e4ba45248fe9dde58566.png](https://github.com/OpenLocalizationOrg/olhandoff/blob/bb9e34ca6eb75a3a90f5d41a8a30b09268706c1a/ol-handoff/OpenLocalizationOrg/hyperVTest.es-es/master/93ee375f9efb3462c5d1e4ba45248fe9dde58566.png)
@@ -695,7 +695,7 @@
 * Dependency From: virtualization\windowscontainers\about\container_ecosystem.md
 * [Back to Top](#report-top)
 
-##### <a name='b62d8af1f08bc8085945c8aa154d46d2215879cb205'></a> Source: [virtualization\windowscontainers\about\media\containerfund.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/windowscontainers/about/media/containerfund.png)
+##### <a name='b62d8af1f08bc8085945c8aa154d46d2215879cb204'></a> Source: [virtualization\windowscontainers\about\media\containerfund.png](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/windowscontainers/about/media/containerfund.png)
 * Status: HandedOff
 * Target File: 
 * Handoff File: [b62d8af1f08bc8085945c8aa154d46d2215879cb.png](https://github.com/OpenLocalizationOrg/olhandoff/blob/bb9e34ca6eb75a3a90f5d41a8a30b09268706c1a/ol-handoff/OpenLocalizationOrg/hyperVTest.es-es/master/b62d8af1f08bc8085945c8aa154d46d2215879cb.png)
