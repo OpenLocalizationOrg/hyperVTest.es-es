@@ -1,7 +1,7 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 19
+ Total Files | 18
 
 ## File List
  Source File | Status | Details 
@@ -14,7 +14,6 @@
  [virtualization\hyperv_on_windows\quick_start\walkthrough_checkpoints.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/hyperv_on_windows/quick_start/walkthrough_checkpoints.md) | HandedBack | [Details](#3d3f98ee3495a340c7fb56e15f900aa719ebc15e176)
  [virtualization\hyperv_on_windows\quick_start\walkthrough_compatibility.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/hyperv_on_windows/quick_start/walkthrough_compatibility.md) | HandedBack | [Details](#44cee369a80323f1e5a896a7d6a65b89112055b9177)
  [virtualization\hyperv_on_windows\quick_start\walkthrough_create_vm.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/hyperv_on_windows/quick_start/walkthrough_create_vm.md) | HandedBack | [Details](#df858fce3585e102d26f467bca2b0755ecf24824178)
- [virtualization\hyperv_on_windows\quick_start\walkthrough_export_import.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/hyperv_on_windows/quick_start/walkthrough_export_import.md) | HandedBack | [Details](#c7cd0b188097b46f0895b2b34d1cc7ecde2c82a0179)
  [virtualization\hyperv_on_windows\quick_start\walkthrough_install.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/hyperv_on_windows/quick_start/walkthrough_install.md) | HandedBack | [Details](#0e17e37e1e05990d89952a7e4eeea504cd215269180)
  [virtualization\hyperv_on_windows\quick_start\walkthrough_virtual_switch.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/hyperv_on_windows/quick_start/walkthrough_virtual_switch.md) | HandedBack | [Details](#47774db49f5a1c02facd46120ba88a3398a23212182)
  [virtualization\hyperv_on_windows\quick_start\walkthrough_vmconnect.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/hyperv_on_windows/quick_start/walkthrough_vmconnect.md) | HandedBack | [Details](#64d931f0509211ef361f5e86225a53ab5fdd9131183)
@@ -102,16 +101,6 @@
 * Target File: [virtualization\hyperv_on_windows\quick_start\walkthrough_create_vm.md](https://github.com/OpenLocalizationOrg/hyperVTest.es-es/blob/939108c391de4912ec0fd4f466fbb56ab7f9346a/virtualization/hyperv_on_windows/quick_start/walkthrough_create_vm.md)
 * Handoff File: 
 * Handback File: [walkthrough_create_vm.698a46fb78fa92b3f275f4115d4b77072fff0ed6.es-es.xlf](https://github.com/OpenLocalizationOrg/olhandback/blob/54227e8b356b2e5cbece91c78b7446adec71c828/ol-handback/OpenLocalizationOrg/hyperVTest.es-es/master/walkthrough_create_vm.698a46fb78fa92b3f275f4115d4b77072fff0ed6.es-es.xlf)
-* Handoff Datetime: 0001-01-01 00:00:00
-* Handback Datetime: 2015-11-11 21:21:44
-* Handoff Reason: Ignored
-* [Back to Top](#report-top)
-
-##### <a name='c7cd0b188097b46f0895b2b34d1cc7ecde2c82a0179'></a> Source: [virtualization\hyperv_on_windows\quick_start\walkthrough_export_import.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/3b25b8a2bdb4db664b8f1e61b51ae272dae2b70c/virtualization/hyperv_on_windows/quick_start/walkthrough_export_import.md)
-* Status: HandedBack
-* Target File: [virtualization\hyperv_on_windows\quick_start\walkthrough_export_import.md](https://github.com/OpenLocalizationOrg/hyperVTest.es-es/blob/939108c391de4912ec0fd4f466fbb56ab7f9346a/virtualization/hyperv_on_windows/quick_start/walkthrough_export_import.md)
-* Handoff File: 
-* Handback File: [walkthrough_export_import.357da837e16b81b7e63ec02325c79b3b0eb2e511.es-es.xlf](https://github.com/OpenLocalizationOrg/olhandback/blob/54227e8b356b2e5cbece91c78b7446adec71c828/ol-handback/OpenLocalizationOrg/hyperVTest.es-es/master/walkthrough_export_import.357da837e16b81b7e63ec02325c79b3b0eb2e511.es-es.xlf)
 * Handoff Datetime: 0001-01-01 00:00:00
 * Handback Datetime: 2015-11-11 21:21:44
 * Handoff Reason: Ignored
