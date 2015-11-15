@@ -6,17 +6,20 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [virtualization\hyperv_on_windows\user_guide\user_guide_nav.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/8698a5d457c7689ef96f0ab8ca2891866bd4f5ea/virtualization/hyperv_on_windows/user_guide/user_guide_nav.md) | HandedOff | [Details](#db77e9f2ec6cc92c80b10e8894c373af403731bb196)
+ [virtualization\hyperv_on_windows\user_guide\user_guide_nav.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/8698a5d457c7689ef96f0ab8ca2891866bd4f5ea/virtualization/hyperv_on_windows/user_guide/user_guide_nav.md) | PartialHandedBack | [Details](#db77e9f2ec6cc92c80b10e8894c373af403731bb196)
 
 ## Item Details
 ##### <a name='db77e9f2ec6cc92c80b10e8894c373af403731bb196'></a> Source: [virtualization\hyperv_on_windows\user_guide\user_guide_nav.md](https://github.com/OpenLocalizationOrg/hyperVTest/blob/8698a5d457c7689ef96f0ab8ca2891866bd4f5ea/virtualization/hyperv_on_windows/user_guide/user_guide_nav.md)
-* Status: HandedOff
+* Status: PartialHandedBack
 * Target File: 
 * Handoff File: [user_guide_nav.1b8c67c408c9adfec100af4c7ae69ce1dd917f2e.es-es.xlf](https://github.com/OpenLocalizationOrg/olhandoff/blob/30951063c97273a55e07440815d69c4325656281/ol-handoff/OpenLocalizationOrg/hyperVTest.es-es/master/user_guide_nav.1b8c67c408c9adfec100af4c7ae69ce1dd917f2e.es-es.xlf)
-* Handback File: 
 * Handoff Datetime: 2015-11-13 20:37:50
-* Handback Datetime: 0001-01-01 00:00:00
 * Handoff Reason: Include
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [virtualization\hyperv_on_windows\user_guide\user_guide_nav.md](https://github.com/OpenLocalizationOrg/hyperVTest.es-es/blob/939108c391de4912ec0fd4f466fbb56ab7f9346a/virtualization/hyperv_on_windows/user_guide/user_guide_nav.md)
+* Current Handback File: [user_guide_nav.1b8c67c408c9adfec100af4c7ae69ce1dd917f2e.es-es.xlf](https://github.com/OpenLocalizationOrg/olhandback/blob/54227e8b356b2e5cbece91c78b7446adec71c828/ol-handback/OpenLocalizationOrg/hyperVTest.es-es/master/user_guide_nav.1b8c67c408c9adfec100af4c7ae69ce1dd917f2e.es-es.xlf)
+* Current Handback Datetime: 2015-11-11 21:21:44
 * [Back to Top](#report-top)
 
 
