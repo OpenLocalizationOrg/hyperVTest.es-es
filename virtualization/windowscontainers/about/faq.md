@@ -1,112 +1,92 @@
-MS. ContentId: F0D47E70-0BA1-4A06-B2F3-0232C496709D
-título: preguntas más frecuentes
+ms.ContentId: F0D47E70-0BA1-4A06-B2F3-0232C496709D
+title: Frequently asked questions
 
-#Preguntas más frecuentes
+# Frequently Asked Questions
 
-Última actualización: 1 de mayo de 2015
+12-Nov update. Last updated: May 1, 2015
 
-##¿Qué es un contenedor de Windows Server?
+## What is a Windows Server Container?
 
-Contenedores de Windows Server son un método de virtualización del sistema operativo ligero utilizado para separar las aplicaciones o servicios de otros servicios que se ejecutan en el mismo host del contenedor.
-Para habilitar esta opción, cada contenedor tiene su propia vista del sistema operativo, procesos, sistema de archivos, registro y direcciones IP.
+Windows Server Containers are a lightweight operating system virtualization method used to separate applications or services from other services running on the same container host. To enable this, each container has its own view of the operating system, processes, file system, registry, and IP addresses.
 
-##¿Cuál es la diferencia entre los contenedores de Windows Server y Linux?
+## What is the difference between Linux and Windows Server Containers?
 
-Contenedores de Windows Server y Linux son similares, ambas implementan tecnologías similares dentro de su sistema operativo básico y kernel.
-La diferencia proviene de la plataforma y las cargas de trabajo que se ejecutan dentro de los contenedores.
-Cuando un cliente utiliza contenedores de Windows Server, puede integrar con las tecnologías existentes de Windows como. NET, ASP.NET, PowerShell y mucho más.
+Linux and Windows Server Containers are similar -- both implement similar technologies within their kernel and core operating system. The difference comes from the platform and workloads that run within the containers.  
+When a customer is using Windows Server Containers, they can integrate with existing Windows technologies such as .NET, ASP.NET, PowerShell and more.
 
-##¿Qué es un contenedor de Hyper-V?
+## What is a Hyper-V Container?
 
-Puede pensar en un contenedor de Hyper-V como un contenedor de servidores de Windows ejecutando dentro de una partición de Hyper-V.
+You can think of a Hyper-V Container as a Windows Server Container running inside of a Hyper-V partition.
 
-Contenedores de Hyper-V ofrecen una opción de implementación adicionales entre el contenedor del servidor Windows muy eficaz, alta densidad y máquina virtuales aislada Hyper-V virtualizada de hardware.
-Para entornos donde las aplicaciones de diferentes límites en el mismo host de confianza, puede requerirse aislamiento adicionales.
-Contenedores de Hyper-V proporcionará más alto de aislamiento mediante una virtualización optimizada y el sistema operativo Windows Server que separa los contenedores entre sí y desde el sistema operativo host.
-Ambas opciones de implementación de contenedor usan las misma administración API, herramientas e image formatos, durante la implementación, los clientes simplemente pueden elegir el modo de implementación que mejor cumpla sus requisitos.
+Hyper-V Containers offer an additional deployment option between the highly efficient, high-density Windows Server Container and the highly isolated hardware-virtualized Hyper-V virtual machine. For environments where applications from different trust boundaries on the same host, additional isolation may be required. Hyper-V Containers will provide higher isolation using an optimized virtualization and Windows Server operating system that separates containers from each other and from the host operating system. Both container deployment options utilize the same management APIs, tools and image formats, at deployment time, customers can simply choose which deployment mode best meets their requirements.
 
 
-##¿Cuándo estará disponible para su uso contenedores de Hyper-V?
+## When will Hyper-V Containers be available for use?
 
-Esperamos que ofrecen una vista previa de los contenedores de Hyper-V de este año natural.
-
-
-##¿Contenedores de Hyper-V también estará disponible para el ecosistema de Docker?
-
-Sí: contenedores de Hyper-V proporcionará el mismo nivel de integración y administración con Docker como contenedores de Windows Server.
-El objetivo es tener una experiencia multiplataforma, coherente y abierta.
-La plataforma Docker simplifica enormemente y mejorar la experiencia de trabajo a través de las opciones del contenedor.
-Una aplicación desarrollada con contenedores de Windows Server puede implementarse como un contenedor de Hyper-V sin cambios.
-
-##¿Por qué es necesario elegir entre la administración Docker y PowerShell para el contenedor de Windows Server
-
-**Esto no es el comportamiento deseado ni nuestro plan a largo plazo.**  Herramientas de administración de contenedor de PowerShell y herramientas de administración de contenedor Docker funcionará en paralelo en el futuro.
-
-Dicho esto, puede resultar difícil usando varias interfaces de administración para administrar el mismo contenedor.
-
-Por ejemplo, tome la creación de un contenedor con PowerShell y el nombre de la imagen con caracteres en mayúscula.
-Docker no es compatible con límites, no de PowerShell.
-Aunque ese ejemplo concreto es muy fácil, qué obtiene mucho más difícil entregar los cambios de estado (condiciones de carrera y expectativas diferentes), el conjunto de características diferencias o versiones...
-
-A corto plazo decidimos que interfaces de administración (en este caso Docker y PowerShell) sólo contenedores vea crearon: crear un contenedor con Docker y PowerShell no lo ve, créelo con PowerShell y Docker no lo ve.
+We expect to deliver a preview of Hyper-V Containers this calendar year.
 
 
-##Como desarrollador, ¿tengo que volver a escribir la aplicación para cada tipo de contenedor?
+## Will Hyper-V Containers also be available to the Docker ecosystem?
 
-No, las imágenes de Windows contenedor son comunes a los contenedores de Windows Server y Hyper-V.
-La elección del tipo de contenedor se realiza cuando se inicia el contenedor.
-Desde la perspectiva del desarrollador, contenedores de Windows Server y Hyper-V son dos versiones de la misma entidad.
-Ofrecen la misma experiencia de desarrollo, programación y administración, está abierta y extensible e incluirá el mismo nivel de integración y compatibilidad a través de Docker.
+Yes – Hyper-V Containers will provide the same level of integration and management with Docker as Windows Server Containers. The goal is to have an open, consistent, cross-platform experience.  
+The Docker platform will also greatly simplify and enhance the experience of working across our container options. An application developed using Windows Server Containers can be deployed as a Hyper-V Container without change.
 
-Un desarrollador puede crear una imagen de contenedor con un contenedor de Windows Server e implementarlo como un contenedor de Hyper-V o viceversa, sin ningún cambio aparte de especificar la marca de tiempo de ejecución adecuados.
+## Why do I have to pick between Docker and PowerShell for Windows Server Container management?
 
-Contenedores de Windows Server ofrece mayor densidad y el rendimiento (por ejemplo, número inferior el rendimiento en tiempo de ejecución de tiempo, más rápido en comparación con las configuraciones anidadas) para cuando la velocidad es clave.
-Contenedores de Hyper-V ofrecen mayor aislamiento, asegurarse de que el código que se ejecuta en un contenedor no se puede poner en peligro o afectar al sistema operativo host u otros contenedores que se ejecutan en el mismo host.
-Esto es útil para escenarios de varios inquilinos (con requisitos de hospedaje de código no seguro) incluidas las aplicaciones de SaaS y el proceso de hospedaje.
+**This isn't desired behavior nor our long term plan.**  PowerShell container management tools and Docker container management tools will work side by side in the future.
 
+With that said, using multiple management interfaces to manage the same container can be difficult.
 
-##¿Son un complemento de contenedores de Hyper-V o Windows Server, o bien se que integra dentro de Windows Server?
+Take, for example, creating a container with PowerShell and naming the image with an upper case character. Docker doesn’t support caps, PowerShell does.  
+While that specific example is very manageable, what gets much harder are handing state changes (race conditions and different expectations), feature set differences or versions…
 
-Las funciones de contenedor se integrará en Windows Server 2016.
-Permanezca atento para obtener más información acerca de la disponibilidad general.
+Our short term decision was that management interfaces (in this case Docker and PowerShell) only see containers they created – you create a container with Docker and PowerShell doesn’t see it, you create it with PowerShell and Docker doesn’t see it.
 
 
-##¿Cuáles son los requisitos previos para contenedores de Windows Server y Hyper-V?
+## As a developer, do I have to re-write my app for each type of container?
 
-Ventana Server contenedores y los contenedores de Hyper-V requieren Windows Server 2016.
-Estas tecnologías no funcionará con versiones anteriores de Windows.
+No, Windows container images are common across both Windows Server Containers and Hyper-V Containers. The choice of container type is made when you start the container. From a developer standpoint, Windows Server Containers and Hyper-V Containers are two flavors of the same thing. They offer the same development, programming and management experience, are open and extensible and will include the same level of integration and support via Docker.
 
-##¿Son contenedores de servidor Nano basado compatibles?
+A developer can create a container image using a Windows Server Container and deploy it as a Hyper-V Container or vice-versa without any changes other than specifying the appropriate runtime flag.
 
-Para la versión TP3, no no son.
-Contenedores de Server Core basándose solo se admiten actualmente.
-
-##¿Puedo ejecutar Windows Server contenedores en ESXi u otro hipervisor de Hyper-V no?
-
-Sí, ejecutar el contenedor de Windows Server en cualquier instalación TP3 Server Core.
-Siga las instrucciones para [Habilitar los contenedores en lugar de características](../quick_start/inplace_setup.md).
+Windows Server Containers will offer greater density and performance (e.g. lower spin up time, faster runtime performance compared to nested configurations) for when speed is key. Hyper-V Containers offer greater isolation, ensuring that code running in one container can't compromise or impact the host operating system or other containers running on the same host. This is useful for multitenant scenarios (with requirements for hosting untrusted code) including SaaS applications and compute hosting.
 
 
-##¿Microsoft participa en la iniciativa de contenedor abierto (OCI)?
+## Are Hyper-V/Windows Server Containers an add-on, or will they integrated within Windows Server?
 
-Para garantizar que el formato de empaquetado permanece universal, Docker recientemente organiza la iniciativa de contenedor de abrir (OCI), para garantizar el empaquetado de contenedor sigue siendo un formato abierto y guiada foundation con Microsoft como uno de los miembros fundadores.
+The container capabilities will be integrated into Windows Server 2016. Stay tuned for more information closer to the general availability.
 
-##¿Es Microsoft realmente asocia Docker?
 
-Sí.
-Nuestra asociación con Docker permite a los desarrolladores crear, administrar e implementar Windows Server y Linux contenedores con el mismo conjunto de herramienta Docker.
-Desarrolladores orientadas a Windows Server ya no tendrá que elegir entre el uso de las tecnologías de la amplia gama de Windows Server y crear aplicaciones de contenido.
+## What are the prerequisites for Windows Server Containers and Hyper-V Containers?
 
-Docker es dos cosas, el grupo de código abierto de proyectos y Docker la empresa.
-Consideramos que esta asociación para incluir ambas.
-Docker es correcta, en parte, debido al vibrante ecosistema que haya elaborado en torno a la tecnología de contenedor Docker.
-Microsoft está contribuyendo al proyecto Docker, habilitando la compatibilidad para los contenedores de Windows Server y Hyper-V.
+Both Window Server Containers and Hyper-V Containers require Windows Server 2016. These technologies will not work with previous versions of Windows.
 
-Para obtener más información, consulte el [compatibilidad con contenedores de nuevo Windows Server y Azure para Docker](http://azure.microsoft.com/blog/2014/10/15/new-windows-server-containers-and-azure-support-for-docker/?WT.mc_id=Blog_ServerCloud_Announce_TTD) entrada de blog.
+## Are Nano Server based containers supported?
+
+For the TP3 release, no they are not. Only Server Core based containers are currently supported.
+
+## Can I run Windows Server Containers on ESXi or another non Hyper-V hypervisor?
+
+Yes, Windows Server Container run on any TP3 Server Core installation. Follow the instructions for [enabling the containers feature in-place](../quick_start/inplace_setup.md).
+
+
+## Is Microsoft participating in the Open Container Initiative (OCI)?
+
+To guarantee the packaging format remains universal, Docker recently organized the Open Container Initiative (OCI), aiming to ensure container packaging remains an open and foundation-led format with Microsoft as one of the founding members.
+
+## Is Microsoft really partnering with Docker?
+
+Yes.  
+Our partnership with Docker enables developers to create, manage and deploy both Windows Server and Linux containers using the same Docker tool set. Developers targeting Windows Server will no longer have to make a choice between using the vast range of Windows Server technologies and building containerized applications.
+
+Docker is two things, the open source group of projects and Docker the company. We consider this partnership to include both. Docker is successful, in part, because of the vibrant ecosystem that has built up around the Docker container technology. Microsoft is contributing to the Docker Project, enabling support for Windows Server Containers and Hyper-V Containers.
+
+For more information, see the [New Windows Server containers and Azure support for Docker](http://azure.microsoft.com/blog/2014/10/15/new-windows-server-containers-and-azure-support-for-docker/?WT.mc_id=Blog_ServerCloud_Announce_TTD) blog post.
 
 -------------------
 
-[Volver a la página principal de contenedor](../containers_welcome.md)
+[Back to Container Home](../containers_welcome.md)
 
 
 
+<!--HONumber=Jan16_HO1-->
